@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MonsterHunterDB",
+    "\\MonsterHunterDB\\Data"
   ],
+  "SelectedNode": "\\MonsterHunterDB\\Data\\MonsterContext.cs",
   "PreviewInSolutionExplorer": false
 }

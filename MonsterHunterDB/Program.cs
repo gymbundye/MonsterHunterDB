@@ -1,12 +1,17 @@
+using MonsterHunterDB.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using MonsterHunterDB.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("MonsterDB")
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddDbContextFactory<MonsterDataContext>(options => options.UseSqlite(connectionString));
 builder.Services.AddSingleton<WeatherForecastService>();
 
 var app = builder.Build();

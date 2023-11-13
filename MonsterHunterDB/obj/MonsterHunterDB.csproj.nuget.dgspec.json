@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pengu\\source\\repos\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj": {}
+    "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pengu\\source\\repos\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj": {
+    "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pengu\\source\\repos\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj",
+        "projectUniqueName": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj",
         "projectName": "MonsterHunterDB",
-        "projectPath": "C:\\Users\\pengu\\source\\repos\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj",
+        "projectPath": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj",
         "packagesPath": "C:\\Users\\pengu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pengu\\source\\repos\\MonsterHunterDB\\MonsterHunterDB\\obj\\",
+        "outputPath": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,24 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
