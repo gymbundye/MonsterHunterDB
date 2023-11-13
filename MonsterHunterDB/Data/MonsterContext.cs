@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel;
 
 namespace MonsterHunterDB.Data
 {
@@ -18,5 +19,24 @@ namespace MonsterHunterDB.Data
         }
 
         public DbSet<Monster> Monsters { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Monster>()
+                .ToTable("Monsters");
+
+            modelBuilder.Entity<Monster>()
+                .HasData(
+                    new Monster
+                    {
+                        Id = 1,
+                        FirstName = "Vlad",
+                        LastName = "Teppes",
+                        MonsterName = "Dracula",
+                        Type = "Vampire",
+                        Description = "Lord of the Night, King of the Vampires."
+                    }
+                );
+        }
     }
 }
