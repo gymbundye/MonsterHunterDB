@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj": {}
+    "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\MonsterHunterDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj": {
+    "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\MonsterHunterDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj",
+        "projectUniqueName": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\MonsterHunterDB.csproj",
         "projectName": "MonsterHunterDB",
-        "projectPath": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj",
+        "projectPath": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\MonsterHunterDB.csproj",
         "packagesPath": "C:\\Users\\pengu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\obj\\",
+        "outputPath": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
