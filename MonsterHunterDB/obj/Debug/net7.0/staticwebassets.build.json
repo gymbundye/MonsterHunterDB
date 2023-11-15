@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vpW2f5YCh+oEaskGvEQg407Rpev2SZmepAA/AbrdKeQ=",
+  "Hash": "I4NYWtJvMvwjUnglWw0S4ODkb2aCNIOn2fvawFQRYS4=",
   "Source": "MonsterHunterDB",
   "BasePath": "_content/MonsterHunterDB",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MonsterHunterDB\\wwwroot",
       "Source": "MonsterHunterDB",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MonsterHunterDB.styles.css",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MonsterHunterDB.styles.css",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "MonsterHunterDB.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MonsterHunterDB.styles.css"
+      "OriginalItemSpec": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\obj\\Debug\\net7.0\\scopedcss\\bundle\\MonsterHunterDB.styles.css"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MonsterHunterDB.bundle.scp.css",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MonsterHunterDB.bundle.scp.css",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "MonsterHunterDB.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MonsterHunterDB.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MonsterHunterDB.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,27 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
-      "BasePath": "_content/MonsterHunterDB",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "SourceId": "MonsterHunterDB",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +187,27 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
+      "BasePath": "_content/MonsterHunterDB",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "MonsterHunterDB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\css\\site.css",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\favicon.png",
       "SourceId": "MonsterHunterDB",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
       "BasePath": "_content/MonsterHunterDB",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

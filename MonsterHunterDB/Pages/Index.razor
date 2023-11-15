@@ -1,7 +1,61 @@
 ﻿@page "/"
+@using Microsoft.EntityFrameworkCore
+@using MonsterHunterDB.Data
 
-<PageTitle>Monsters</PageTitle>
+<PageTitle>Here lies Monsters</PageTitle>
 
-<h1>Welcome to the Van Velsing DataBase</h1>
+@inject IDbContextFactory<MonsterDataContext> MonsterDataContextFactory;
+
+@if (@ShowCreate)
+{
+
+    <h3>Add a Monster</h3>
+    <div class="row">
+        <label for="FirstName" class="col-4 col-form-label">First Name</label>
+        <div class="col-8">
+            <input id="FirstName" name="FirstName" type="text" class="form-control" @bind="@NewMonster.FirstName">
+        </div>
+    </div>
+    <div class="row">
+        <label for="LastName" class="col-4 col-form-label">Last Name</label>
+        <div class="col-8">
+            <input id="LastName" name="LastName" type="text" class="form-control" @bind="@NewMonster.LastName">
+        </div>
+    </div>
+    <div class="row">
+        <label for="MonsterName" class="col-4 col-form-label">Monster Name</label>
+        <div class="col-8">
+            <input id="MonsterName" name="MonsterName" type="text" class="form-control" @bind="@NewMonster.MonsterName">
+        </div>
+    </div>
+    <div class="row">
+        <label for="Type" class="col-4 col-form-label">Type</label>
+        <div class="col-8">
+            <input id="Type" name="Type" type="text" class="form-control" @bind="@NewMonster.Type">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Description" class="col-4 col-form-label">Description</label>
+        <div class="col-8">
+            <input id="Description" name="Description" type="text" class="form-control" @bind="@NewMonster.Description">
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="offset-4 col-8">
+            <button name="submit" type="submit" class="btn btn-primary" @onclick="CreateNewMonster">Submit</button>
+        </div>
+    </div>
+
+}
+else
+{
+    <div class="form-group row">
+        <div class="offset-4 col-8">
+            <button name="submit" type="submit" class="btn btn-primary" @onclick="ShowCreateForm">Add a Monster</button>
+        </div>
+    </div>
+
+    <p>SHOW THE LIST</p>
+}
 
 

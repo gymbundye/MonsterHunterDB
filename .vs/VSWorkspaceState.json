@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\MonsterHunterDB",
-    "\\MonsterHunterDB\\Data"
+    "\\MonsterHunterDB\\Data",
+    "\\MonsterHunterDB\\Pages"
   ],
-  "SelectedNode": "\\MonsterHunterDB\\Data",
+  "SelectedNode": "\\MonsterHunterDB\\Pages\\Index.razor.cs",
   "PreviewInSolutionExplorer": false
 }
