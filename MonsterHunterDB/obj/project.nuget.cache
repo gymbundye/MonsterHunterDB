@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qqc506S12qoeU55n3m4LHNpl6teUkCo1d5SJ0hlRqNqoRlF7SjoUzaKdZalaTLFCV2z+aGFyg0l9DB6I0/csFQ==",
+  "dgSpecHash": "3YypRbM3F58aQWqR7M0G2yl7nKdGv2sSENkOQl0MiW8NQ3vVo/v+B7Ue4li3y9yRIjyy++aeDpzGTP4tikDnaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\monsterhunterdb\\MonsterHunterDB.csproj",
+  "projectFilePath": "C:\\Users\\pengu\\Source\\Repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\MonsterHunterDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pengu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\pengu\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",

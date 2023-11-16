@@ -9,11 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MonsterHunterDB
 build_property.RootNamespace = MonsterHunterDB
-build_property.ProjectDir = C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\
+build_property.ProjectDir = C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB
+build_property.MSBuildProjectDirectory = C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/pengu/Source/Repos/gymbundye/MonsterHunterDB/MonsterHunterDB/App.razor]

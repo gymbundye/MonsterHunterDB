@@ -1,12 +1,12 @@
-﻿@page "/"
-@using Microsoft.EntityFrameworkCore
+﻿@using Microsoft.EntityFrameworkCore
 @using MonsterHunterDB.Data
+@page "/"
+@inject IDbContextFactory<MonsterDataContext> MonsterDataContextFactory;
 
 <PageTitle>Here lies Monsters</PageTitle>
 
-@inject IDbContextFactory<MonsterDataContext> MonsterDataContextFactory;
 
-@if (@ShowCreate)
+@if (ShowCreate)
 {
 
     <h3>Add a Monster</h3>
@@ -55,7 +55,41 @@ else
         </div>
     </div>
 
-    <p>SHOW THE LIST</p>
+    @if (@OurMonsters is not null && @OurMonsters.Count > 0)
+    {
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered table-light border-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Monster Name</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var monster in OurMonsters)
+                    {
+
+                        <tr>
+                            <th scope="row">@monster.Id</th>
+                            <td>@monster.FirstName</td>
+                            <td>@monster.LastName</td>
+                            <td>@monster.MonsterName</td>
+                            <td>@monster.Type</td>
+                            <td>@monster.Description</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    }
 }
 
 

@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\MonsterHunterDB",
-    "\\MonsterHunterDB\\Data",
+    "\\MonsterHunterDB\\Migrations",
     "\\MonsterHunterDB\\Pages"
   ],
-  "SelectedNode": "\\MonsterHunterDB\\Pages\\Index.razor.cs",
+  "SelectedNode": "\\MonsterHunterDB\\Pages\\_Host.cshtml",
   "PreviewInSolutionExplorer": false
 }
