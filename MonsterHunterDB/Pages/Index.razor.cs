@@ -8,11 +8,15 @@ namespace MonsterHunterDB.Pages
     public partial class Index
     {
         public bool ShowCreate { get; set; }
+        public bool ShowEdit { get; set; }
+        public bool EditRecord { get; set; }
+        public int EditingId { get; set; }
+
+        public Monster? MonsterToUpdate { get; set; }
 
         private MonsterDataContext? _context;
         public Monster? NewMonster { get; set; }
-
-        public List<Monster>? OurMonsters { get; set; }   
+        public List<Monster>? OurMonsters { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
@@ -55,6 +59,46 @@ namespace MonsterHunterDB.Pages
 
             if (_context is not null) await _context.DisposeAsync();
         }
-    }
 
+        //This method allows us to update our monsters an example of update//
+        //------------------ Update! ----------------///
+
+        public async Task ShowEditForm(Monster ourMonster)
+        {
+
+            _context ??= await MonsterDataContextFactory.CreateDbContextAsync();
+
+            if (_context is not null)
+            {
+                MonsterToUpdate = _context.Monsters.FirstOrDefault(x => x.Id == ourMonster.Id);
+                ShowEdit = true;
+                EditingId = ourMonster.Id;
+            }
+        }
+
+        public async Task UpdateMonster()
+        {
+            _context ??= await MonsterDataContextFactory.CreateDbContextAsync();
+
+            if (_context is not null)
+            {
+                if (MonsterToUpdate is not null) _context.Monsters.Update(MonsterToUpdate);
+                await _context.SaveChangesAsync();
+            }
+            ShowEdit = false;
+        }
+
+        //This is our delete method//
+        public async Task DeleteMonster(Monster ourMonster)
+        {
+            _context ??= await MonsterDataContextFactory.CreateDbContextAsync();
+            if (_context is not null)
+            {
+                if (ourMonster is not null) _context.Monsters.Remove(ourMonster);
+                await _context.SaveChangesAsync();
+            }
+            await ShowMonsters();
+
+        }
+    }
 }

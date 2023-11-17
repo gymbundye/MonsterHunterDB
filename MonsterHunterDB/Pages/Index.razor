@@ -75,16 +75,50 @@ else
 
                     @foreach (var monster in OurMonsters)
                     {
-
-                        <tr>
-                            <th scope="row">@monster.Id</th>
+                        @if (!@ShowEdit)
+                        {
+                            <tr>
+                                <th scope="row">@monster.Id</th>
                             <td>@monster.FirstName</td>
                             <td>@monster.LastName</td>
                             <td>@monster.MonsterName</td>
                             <td>@monster.Type</td>
                             <td>@monster.Description</td>
-                        </tr>
+                            <td><button name="submit" type="submit" class="btn btn-primary" @onclick="() => ShowEditForm(monster)">Edit</button></td>
+                            <td><button name="submit" type="submit" class="btn btn-primary" @onclick="() => DeleteMonster(monster)">Delete</button></td>
+                            </tr>
+                        }
+                        else
+                        {
+                            if (@MonsterToUpdate is not null && @MonsterToUpdate.Id == @monster.Id)
+                            {
+                                <tr>
+                                    <th scope="row">@monster.Id</th>
+                                    <td><input id="FirstName" name="FirstName" type="text" class="form-control" @bind="@MonsterToUpdate.FirstName" /></td>
+                                    <td><input id="LastName" name="LastName" type="text" class="form-control" @bind="@MonsterToUpdate.LastName" /></td>
+                                    <td><input id="MonsterName" name="MonsterName" type="text" class="form-control" @bind="@MonsterToUpdate.MonsterName" /></td>
+                                    <td><input id="Type" name="Type" type="text" class="form-control" @bind="@MonsterToUpdate.Type" /></td>
+                                    <td><input id="Description" name="Description" type="text" class="form-control" @bind="@MonsterToUpdate.Description" /></td>
+                                    <td><button name="submit" type="submit" class="btn btn-primary" @onclick="@UpdateMonster">Save</button></td>
+                                    <td></td>
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <th scope="row">@monster.Id</th>
+                                    <td>@monster.FirstName</td>
+                                    <td>@monster.LastName</td>
+                                    <td>@monster.MonsterName</td>
+                                    <td>@monster.Type</td>
+                                    <td>@monster.Description</td>
+                                    <td><button name="submit" type="submit" class="btn btn-primary" @onclick="() => ShowEditForm(monster)">Edit</button></td>
+                                    <td></td>
+                                </tr>
+                            }
+                        }
                     }
+
 
                 </tbody>
             </table>
