@@ -57,7 +57,7 @@ namespace MonsterHunterDB.Pages
                 OurMonsters = await _context.Monsters.ToListAsync();
             }
 
-            if (_context is not null) await _context.DisposeAsync();
+            
         }
 
         //This method allows us to update our monsters an example of update//
