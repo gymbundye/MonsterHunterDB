@@ -98,3 +98,4 @@ C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB\obj\Debug\
 C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB\obj\Debug\net7.0\MonsterHunterDB.pdb
 C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB\obj\Debug\net7.0\MonsterHunterDB.genruntimeconfig.cache
 C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB\obj\Debug\net7.0\ref\MonsterHunterDB.dll
+C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB\obj\Debug\net7.0\MonsterHunterDB.sourcelink.json
