@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MonsterHunterDB.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\Fonts\\MonsterFont.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MonsterFont.ttf"
+    },
+    {
       "Id": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\Images\\Monsters_wallpaper.jpg",
       "PackagePath": "staticwebassets\\Images\\Monsters_wallpaper.jpg"
     },

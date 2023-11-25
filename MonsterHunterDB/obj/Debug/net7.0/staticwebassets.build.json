@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "emjPmWAIXoUAEbAIfJykB/5HNK3vR/9Ow8cTQ73afK4=",
+  "Hash": "LPoy7RIHQeVdkZ1R710+USpOkC3kYyY0OQJJJzNdbe0=",
   "Source": "MonsterHunterDB",
   "BasePath": "_content/MonsterHunterDB",
   "Mode": "Default",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\Fonts\\MonsterFont.ttf",
+      "SourceId": "MonsterHunterDB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\",
+      "BasePath": "_content/MonsterHunterDB",
+      "RelativePath": "Fonts/MonsterFont.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Fonts\\MonsterFont.ttf"
     },
     {
       "Identity": "C:\\Users\\pengu\\source\\repos\\gymbundye\\MonsterHunterDB\\MonsterHunterDB\\wwwroot\\Images\\Monsters_wallpaper.jpg",
