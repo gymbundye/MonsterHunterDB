@@ -99,3 +99,15 @@ C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB\obj\Debug\
 C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB\obj\Debug\net7.0\MonsterHunterDB.genruntimeconfig.cache
 C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB\obj\Debug\net7.0\ref\MonsterHunterDB.dll
 C:\Users\pengu\Source\Repos\gymbundye\MonsterHunterDB\MonsterHunterDB\obj\Debug\net7.0\MonsterHunterDB.sourcelink.json
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Blazorise.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Blazorise.Icons.FontAwesome.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Blazorise.Licensing.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\DeepCloner.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\pengu\source\repos\gymbundye\MonsterHunterDB\MonsterHunterDB\bin\Debug\net7.0\Microsoft.JSInterop.dll

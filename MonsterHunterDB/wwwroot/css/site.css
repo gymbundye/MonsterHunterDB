@@ -18,10 +18,11 @@ a, .btn-link {
 }
 
 .btn-primary {
+    margin: 10px;
     color: black;
     background-color: limegreen;
-    border-color: #1861ac;
-    
+    border-color: black;
+    box-shadow: 0 18px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
