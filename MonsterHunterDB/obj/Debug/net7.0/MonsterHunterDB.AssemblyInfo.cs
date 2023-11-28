@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonsterHunterDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cf3d7eb455bea06df73e4cf7dd3d242449dfaf5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da10807092a458ce9330a79193610b0ef776c18f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonsterHunterDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonsterHunterDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
