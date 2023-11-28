@@ -82,6 +82,7 @@ main[b-5d7s3s07cu] {
 
 .navbar-brand[b-hdfoks9dxg] {
     font-size: 1.1rem;
+    color: limegreen;
 }
 
 .oi[b-hdfoks9dxg] {
@@ -94,6 +95,8 @@ main[b-5d7s3s07cu] {
 .nav-item[b-hdfoks9dxg] {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
+    color: limegreen;
+    
 }
 
     .nav-item:first-of-type[b-hdfoks9dxg] {
@@ -105,7 +108,8 @@ main[b-5d7s3s07cu] {
     }
 
     .nav-item[b-hdfoks9dxg]  a {
-        color: #d7d7d7;
+        color: limegreen;
+        text-shadow: 2px 2px black;
         border-radius: 4px;
         height: 3rem;
         display: flex;

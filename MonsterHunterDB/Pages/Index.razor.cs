@@ -61,7 +61,7 @@ namespace MonsterHunterDB.Pages
         }
 
         //This method allows us to update our monsters an example of update//
-        //------------------ Update! ----------------///
+        
 
         public async Task ShowEditForm(Monster ourMonster)
         {
