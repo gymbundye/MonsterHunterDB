@@ -4,7 +4,8 @@ using System.Threading.Tasks;
 
 namespace MonsterHunterDB.Pages
 {
-
+    //This is an example of the single responsibility Solid Principle//
+    //This component handles all of our crud logic and just that// 
     public partial class Index
     {
         public bool ShowCreate { get; set; }
