@@ -26,7 +26,7 @@ https://visualstudio.microsoft.com/downloads/
 Once there click on the button that says code. Here you have two options. You can either open the project with
 visual studio from here or clone the solution by copying and pasting the repository link into the visual studio itself.
 
-3.Once the solution is loaded you should be able to press the play button where it says https.....However sometimes you
+3. Once the solution is loaded you should be able to press the play button where it says https.....However sometimes you
 have to go up to the top of Microsoft VS and click on View. Then Click on Solution Explorer. Inside the Solution Explorer, at the 
 top,  will be a button with the purple Microsoft VS logo on it. This changes between folder and solution views. Make sure you are 
 in MonsterHunterDB.Solution and then that play button should be there. Click it.
